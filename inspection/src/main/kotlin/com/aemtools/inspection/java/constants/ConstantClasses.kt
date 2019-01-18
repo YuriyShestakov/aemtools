@@ -1131,9 +1131,19 @@ object ConstantClasses {
   val ORG_SLF4J_SPI_LOCATIONAWARELOGGER: String = "org.slf4j.spi.LocationAwareLogger"
 
   /**
+   * Elbrus constants.
+   * TODO Can we add list of additional classes as a configuration?
+   * Or create another plugin for it?
+   */
+  val ELBRUS_CONSTANTS: String = "org.accenture.elbrus.core.ElbrusConstants"
+
+  /**
    * List of all OOTB constant holder classes.
    */
   val ALL: List<String> = listOf(
+
+      ELBRUS_CONSTANTS,
+
       CH_RANDELSHOFER_MEDIA_JPEG_JFIFINPUTSTREAM,
       COM_ADOBE_CQ_ADDRESS_API_ADDRESS,
       COM_ADOBE_CQ_ADDRESS_API_LOCATION_LOCATION,
