@@ -27,7 +27,7 @@ object ConstantClasses {
 //  val HTTP_CONSTANTS: String = "org.apache.sling.api.servlets.HttpConstants"
 //  val OSGI_CONSTANTS: String = "org.osgi.framework.Constants"
 //  val ENGINE_CONSTANTS: String = "org.apache.sling.engine.EngineConstants"
-  
+
   /*
    * List of all AEM 6.4 constant classes
    */

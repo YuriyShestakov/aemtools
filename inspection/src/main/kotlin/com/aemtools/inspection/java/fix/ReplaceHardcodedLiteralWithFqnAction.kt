@@ -22,6 +22,11 @@ class ReplaceHardcodedLiteralWithFqnAction(
     { message },
     "AEM Inspections"
 ) {
+
+  override fun getName(): String {
+    return "Replace with '${cd.containerClass}.${cd.name}'"
+  }
+
   override fun invoke(project: Project, editor: Editor?, file: PsiFile) {
     val element = psiLiteral.element ?: return
 
