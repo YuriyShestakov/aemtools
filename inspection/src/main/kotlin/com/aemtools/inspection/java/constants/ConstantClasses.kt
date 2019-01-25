@@ -1130,10 +1130,15 @@ object ConstantClasses {
   val ORG_SLF4J_EVENT_EVENTCONSTANTS: String = "org.slf4j.event.EventConstants"
   val ORG_SLF4J_SPI_LOCATIONAWARELOGGER: String = "org.slf4j.spi.LocationAwareLogger"
 
+  val ORG_OSGI_FRAMEWORK_CONSTANTS: String = "org.osgi.framework.Constants"
+
   /**
    * List of all OOTB constant holder classes.
    */
   val ALL: List<String> = listOf(
+
+      ORG_OSGI_FRAMEWORK_CONSTANTS,
+
       CH_RANDELSHOFER_MEDIA_JPEG_JFIFINPUTSTREAM,
       COM_ADOBE_CQ_ADDRESS_API_ADDRESS,
       COM_ADOBE_CQ_ADDRESS_API_LOCATION_LOCATION,
