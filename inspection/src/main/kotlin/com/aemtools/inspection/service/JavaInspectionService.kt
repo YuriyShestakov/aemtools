@@ -7,6 +7,7 @@ import com.aemtools.inspection.java.constants.ConstantDescriptor
 import com.aemtools.inspection.java.fix.ReplaceHardcodedLiteralWithFqnAction
 import com.intellij.codeInspection.ProblemHighlightType
 import com.intellij.codeInspection.ProblemsHolder
+import com.intellij.lang.jvm.JvmModifier
 import com.intellij.openapi.components.ServiceManager
 import com.intellij.openapi.module.Module
 import com.intellij.openapi.project.Project
@@ -43,8 +44,14 @@ class JavaInspectionService : IJavaInspectionService {
 
     val variants = ConstantClasses.ALL.mapNotNull { fqn ->
       jpf.findClass(fqn, GlobalSearchScope.moduleWithDependenciesAndLibrariesScope(module))
+    }.filterNot { psiClass ->
+      psiClass.isDeprecated
     }.flatMap { psiClass ->
       psiClass.allFields.mapNotNull { field ->
+        if (field.isDeprecated || !field.hasModifier(JvmModifier.PUBLIC)) {
+          return@mapNotNull null
+        }
+
         val fqn = psiClass.qualifiedName ?: return@mapNotNull null
         val fieldName = field.name ?: return@mapNotNull null
         val fieldValue = field.computeConstantValue() as? String ?: return@mapNotNull null
