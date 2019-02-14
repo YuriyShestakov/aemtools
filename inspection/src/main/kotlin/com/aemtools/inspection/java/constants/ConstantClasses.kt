@@ -1141,12 +1141,16 @@ object ConstantClasses {
    */
   val ELBRUS_CONSTANTS: String = "org.accenture.elbrus.core.ElbrusConstants"
 
+  // We use Google Guava, let's add them
+  val COM_GOOGLE_COMMON_NET_HTTPHEADERS = "com.google.common.net.HttpHeaders"
+
   /**
    * List of all OOTB constant holder classes.
    */
   val ALL: List<String> = listOf(
 
       ELBRUS_CONSTANTS,
+      COM_GOOGLE_COMMON_NET_HTTPHEADERS,
 
       ORG_OSGI_FRAMEWORK_CONSTANTS,
 
