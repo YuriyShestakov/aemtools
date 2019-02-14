@@ -12,12 +12,12 @@ object ConstantClasses {
 
 //  val JACKRABIT_JCR_CONSTANTS: String = "org.apache.jackrabbit.JcrConstants"
 //  val CQ_COMMONS_JCR_JCR_CONSTANTS: String = "com.day.cq.commons.jcr.JcrConstants"
-//  val DAY_CRX_JCR_CONSTANTS: String = "com.day.crx.JcrConstants"
+  val DAY_CRX_JCR_CONSTANTS: String = "com.day.crx.JcrConstants"
 //  val DAM_CONSTANTS: String = "com.day.cq.dam.api.DamConstants"
-//  val NAME_CONSTANTS: String = "com.day.cq.wcm.api.NameConstants"
+  val NAME_CONSTANTS: String = "com.day.cq.wcm.api.NameConstants"
 //  val CONFIGURATION_CONSTANTS: String = "com.day.cq.wcm.webservicesupport.ConfigurationConstants"
-//  val JCR_RESOURCE_CONSTANTS: String = "org.apache.sling.jcr.resource.JcrResourceConstants"
-//  val TAG_CONSTANTS: String = "com.day.cq.tagging.TagConstants"
+  val JCR_RESOURCE_CONSTANTS: String = "org.apache.sling.jcr.resource.JcrResourceConstants"
+  val TAG_CONSTANTS: String = "com.day.cq.tagging.TagConstants"
 //  val REPLICATION_STATUS: String = "com.day.cq.replication.ReplicationStatus"
 //  val JCR_PACKAGE: String = "org.apache.jackrabbit.vault.packaging.JcrPackage"
 //  val JCR_PACKAGE_DEFINITION: String = "org.apache.jackrabbit.vault.packaging.JcrPackageDefinition"
@@ -1132,6 +1132,8 @@ object ConstantClasses {
 
   val ORG_OSGI_FRAMEWORK_CONSTANTS: String = "org.osgi.framework.Constants"
 
+  val ORG_APACHE_HTTP_HTTP_HEADERS: String = "org.apache.http.HttpHeaders"
+
   /**
    * Elbrus constants.
    * TODO Can we add list of additional classes as a configuration?
@@ -1147,6 +1149,20 @@ object ConstantClasses {
       ELBRUS_CONSTANTS,
 
       ORG_OSGI_FRAMEWORK_CONSTANTS,
+
+      ORG_APACHE_HTTP_HTTP_HEADERS,
+
+      //
+      // From that reduced list
+      //
+      DAY_CRX_JCR_CONSTANTS,
+      NAME_CONSTANTS,
+      JCR_RESOURCE_CONSTANTS,
+      TAG_CONSTANTS,
+
+      //
+      // From Long list
+      //
 
       CH_RANDELSHOFER_MEDIA_JPEG_JFIFINPUTSTREAM,
       COM_ADOBE_CQ_ADDRESS_API_ADDRESS,
@@ -2393,7 +2409,15 @@ object ConstantClasses {
 //      "ERROR",
 //      "INCLUDE",
 //      "FORWARD",
-//      "REQUEST"
+//      "REQUEST",
+
+      // Short constants (separators, delimiters etc.)
+      ".",
+      ",",
+      ";",
+      ":",
+      "\""
+
   )
 
 }
