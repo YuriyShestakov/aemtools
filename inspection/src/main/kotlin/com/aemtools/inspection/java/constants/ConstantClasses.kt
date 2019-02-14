@@ -1037,70 +1037,70 @@ object ConstantClasses {
   val ORG_APACHE_SLING_SPI_RESOURCE_PROVIDER_RESOURCEPROVIDER: String = "org.apache.sling.spi.resource.provider.ResourceProvider"
   val ORG_APACHE_SLING_TENANT_TENANT: String = "org.apache.sling.tenant.Tenant"
   val ORG_APACHE_SLING_XSS_JSONUTIL: String = "org.apache.sling.xss.JSONUtil"
-  val ORG_APACHE_TIKA_CONFIG_PARAMFIELD: String = "org.apache.tika.config.ParamField"
-  val ORG_APACHE_TIKA_EMBEDDER_EXTERNALEMBEDDER: String = "org.apache.tika.embedder.ExternalEmbedder"
-  val ORG_APACHE_TIKA_LANGUAGE_LANGUAGEPROFILE: String = "org.apache.tika.language.LanguageProfile"
-  val ORG_APACHE_TIKA_METADATA_ACCESSPERMISSIONS: String = "org.apache.tika.metadata.AccessPermissions"
-  val ORG_APACHE_TIKA_METADATA_CLIMATEFORCAST: String = "org.apache.tika.metadata.ClimateForcast"
-  val ORG_APACHE_TIKA_METADATA_CREATIVECOMMONS: String = "org.apache.tika.metadata.CreativeCommons"
-  val ORG_APACHE_TIKA_METADATA_DATABASE: String = "org.apache.tika.metadata.Database"
-  val ORG_APACHE_TIKA_METADATA_DUBLINCORE: String = "org.apache.tika.metadata.DublinCore"
-  val ORG_APACHE_TIKA_METADATA_HTML: String = "org.apache.tika.metadata.HTML"
-  val ORG_APACHE_TIKA_METADATA_HTTPHEADERS: String = "org.apache.tika.metadata.HttpHeaders"
-  val ORG_APACHE_TIKA_METADATA_IPTC: String = "org.apache.tika.metadata.IPTC"
-  val ORG_APACHE_TIKA_METADATA_MESSAGE: String = "org.apache.tika.metadata.Message"
-  val ORG_APACHE_TIKA_METADATA_METADATA: String = "org.apache.tika.metadata.Metadata"
-  val ORG_APACHE_TIKA_METADATA_MSOFFICE: String = "org.apache.tika.metadata.MSOffice"
-  val ORG_APACHE_TIKA_METADATA_OFFICE: String = "org.apache.tika.metadata.Office"
-  val ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLCORE: String = "org.apache.tika.metadata.OfficeOpenXMLCore"
-  val ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLEXTENDED: String = "org.apache.tika.metadata.OfficeOpenXMLExtended"
-  val ORG_APACHE_TIKA_METADATA_PDF: String = "org.apache.tika.metadata.PDF"
-  val ORG_APACHE_TIKA_METADATA_PHOTOSHOP: String = "org.apache.tika.metadata.Photoshop"
-  val ORG_APACHE_TIKA_METADATA_QUATTROPRO: String = "org.apache.tika.metadata.QuattroPro"
-  val ORG_APACHE_TIKA_METADATA_RTFMETADATA: String = "org.apache.tika.metadata.RTFMetadata"
-  val ORG_APACHE_TIKA_METADATA_TIKACOREPROPERTIES: String = "org.apache.tika.metadata.TikaCoreProperties"
-  val ORG_APACHE_TIKA_METADATA_TIKAMETADATAKEYS: String = "org.apache.tika.metadata.TikaMetadataKeys"
-  val ORG_APACHE_TIKA_METADATA_TIKAMIMEKEYS: String = "org.apache.tika.metadata.TikaMimeKeys"
-  val ORG_APACHE_TIKA_METADATA_WORDPERFECT: String = "org.apache.tika.metadata.WordPerfect"
-  val ORG_APACHE_TIKA_METADATA_XMP: String = "org.apache.tika.metadata.XMP"
-  val ORG_APACHE_TIKA_METADATA_XMPIDQ: String = "org.apache.tika.metadata.XMPIdq"
-  val ORG_APACHE_TIKA_METADATA_XMPMM: String = "org.apache.tika.metadata.XMPMM"
-  val ORG_APACHE_TIKA_METADATA_XMPRIGHTS: String = "org.apache.tika.metadata.XMPRights"
-  val ORG_APACHE_TIKA_MIME_MIMETYPES: String = "org.apache.tika.mime.MimeTypes"
-  val ORG_APACHE_TIKA_MIME_MIMETYPESFACTORY: String = "org.apache.tika.mime.MimeTypesFactory"
-  val ORG_APACHE_TIKA_MIME_MIMETYPESREADERMETKEYS: String = "org.apache.tika.mime.MimeTypesReaderMetKeys"
-  val ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCOMMONS: String = "org.apache.tika.parser.chm.core.ChmCommons"
-  val ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCONSTANTS: String = "org.apache.tika.parser.chm.core.ChmConstants"
-  val ORG_APACHE_TIKA_PARSER_CRYPTO_TSDPARSER: String = "org.apache.tika.parser.crypto.TSDParser"
-  val ORG_APACHE_TIKA_PARSER_ENVI_ENVIHEADERPARSER: String = "org.apache.tika.parser.envi.EnviHeaderParser"
-  val ORG_APACHE_TIKA_PARSER_EXECUTABLE_MACHINEMETADATA: String = "org.apache.tika.parser.executable.MachineMetadata"
-  val ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSER: String = "org.apache.tika.parser.external.ExternalParser"
-  val ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSERSCONFIGREADERMETKEYS: String = "org.apache.tika.parser.external.ExternalParsersConfigReaderMetKeys"
-  val ORG_APACHE_TIKA_PARSER_GEOINFO_GEOGRAPHICINFORMATIONPARSER: String = "org.apache.tika.parser.geoinfo.GeographicInformationParser"
-  val ORG_APACHE_TIKA_PARSER_GRIB_GRIBPARSER: String = "org.apache.tika.parser.grib.GribParser"
-  val ORG_APACHE_TIKA_PARSER_IMAGE_ICNSPARSER: String = "org.apache.tika.parser.image.ICNSParser"
-  val ORG_APACHE_TIKA_PARSER_IWORK_IWORKPACKAGEPARSER: String = "org.apache.tika.parser.iwork.IWorkPackageParser"
-  val ORG_APACHE_TIKA_PARSER_IWORK_IWANA_IWORK13PACKAGEPARSER: String = "org.apache.tika.parser.iwork.iwana.IWork13PackageParser"
-  val ORG_APACHE_TIKA_PARSER_MAT_MATPARSER: String = "org.apache.tika.parser.mat.MatParser"
-  val ORG_APACHE_TIKA_PARSER_MBOX_MBOXPARSER: String = "org.apache.tika.parser.mbox.MboxParser"
-  val ORG_APACHE_TIKA_PARSER_MICROSOFT_JACKCESSPARSER: String = "org.apache.tika.parser.microsoft.JackcessParser"
-  val ORG_APACHE_TIKA_PARSER_MICROSOFT_OOXML_OOXMLWORDANDPOWERPOINTTEXTHANDLER: String = "org.apache.tika.parser.microsoft.ooxml.OOXMLWordAndPowerPointTextHandler"
-  val ORG_APACHE_TIKA_PARSER_MP3_AUDIOFRAME: String = "org.apache.tika.parser.mp3.AudioFrame"
-  val ORG_APACHE_TIKA_PARSER_NER_NAMEDENTITYPARSER: String = "org.apache.tika.parser.ner.NamedEntityParser"
-  val ORG_APACHE_TIKA_PARSER_NER_NERECOGNISER: String = "org.apache.tika.parser.ner.NERecogniser"
-  val ORG_APACHE_TIKA_PARSER_NER_CORENLP_CORENLPNERECOGNISER: String = "org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser"
-  val ORG_APACHE_TIKA_PARSER_NER_MITIE_MITIENERECOGNISER: String = "org.apache.tika.parser.ner.mitie.MITIENERecogniser"
-  val ORG_APACHE_TIKA_PARSER_NER_OPENNLP_OPENNLPNERECOGNISER: String = "org.apache.tika.parser.ner.opennlp.OpenNLPNERecogniser"
-  val ORG_APACHE_TIKA_PARSER_NER_REGEX_REGEXNERECOGNISER: String = "org.apache.tika.parser.ner.regex.RegexNERecogniser"
-  val ORG_APACHE_TIKA_PARSER_ODF_OPENDOCUMENTCONTENTPARSER: String = "org.apache.tika.parser.odf.OpenDocumentContentParser"
-  val ORG_APACHE_TIKA_PARSER_PDF_PDFPARSER: String = "org.apache.tika.parser.pdf.PDFParser"
-  val ORG_APACHE_TIKA_PARSER_PRT_PRTPARSER: String = "org.apache.tika.parser.prt.PRTParser"
-  val ORG_APACHE_TIKA_PARSER_RECOGNITION_OBJECTRECOGNITIONPARSER: String = "org.apache.tika.parser.recognition.ObjectRecognitionParser"
-  val ORG_APACHE_TIKA_PARSER_RTF_LISTDESCRIPTOR: String = "org.apache.tika.parser.rtf.ListDescriptor"
-  val ORG_APACHE_TIKA_PARSER_SENTIMENT_SENTIMENTANALYSISPARSER: String = "org.apache.tika.parser.sentiment.SentimentAnalysisParser"
-  val ORG_APACHE_TIKA_SAX_STANDARDSEXTRACTINGCONTENTHANDLER: String = "org.apache.tika.sax.StandardsExtractingContentHandler"
-  val ORG_APACHE_TIKA_SAX_XHTMLCONTENTHANDLER: String = "org.apache.tika.sax.XHTMLContentHandler"
-  val ORG_APACHE_TIKA_SAX_XMPCONTENTHANDLER: String = "org.apache.tika.sax.XMPContentHandler"
+//  val ORG_APACHE_TIKA_CONFIG_PARAMFIELD: String = "org.apache.tika.config.ParamField"
+//  val ORG_APACHE_TIKA_EMBEDDER_EXTERNALEMBEDDER: String = "org.apache.tika.embedder.ExternalEmbedder"
+//  val ORG_APACHE_TIKA_LANGUAGE_LANGUAGEPROFILE: String = "org.apache.tika.language.LanguageProfile"
+//  val ORG_APACHE_TIKA_METADATA_ACCESSPERMISSIONS: String = "org.apache.tika.metadata.AccessPermissions"
+//  val ORG_APACHE_TIKA_METADATA_CLIMATEFORCAST: String = "org.apache.tika.metadata.ClimateForcast"
+//  val ORG_APACHE_TIKA_METADATA_CREATIVECOMMONS: String = "org.apache.tika.metadata.CreativeCommons"
+//  val ORG_APACHE_TIKA_METADATA_DATABASE: String = "org.apache.tika.metadata.Database"
+//  val ORG_APACHE_TIKA_METADATA_DUBLINCORE: String = "org.apache.tika.metadata.DublinCore"
+//  val ORG_APACHE_TIKA_METADATA_HTML: String = "org.apache.tika.metadata.HTML"
+//  val ORG_APACHE_TIKA_METADATA_HTTPHEADERS: String = "org.apache.tika.metadata.HttpHeaders"
+//  val ORG_APACHE_TIKA_METADATA_IPTC: String = "org.apache.tika.metadata.IPTC"
+//  val ORG_APACHE_TIKA_METADATA_MESSAGE: String = "org.apache.tika.metadata.Message"
+//  val ORG_APACHE_TIKA_METADATA_METADATA: String = "org.apache.tika.metadata.Metadata"
+//  val ORG_APACHE_TIKA_METADATA_MSOFFICE: String = "org.apache.tika.metadata.MSOffice"
+//  val ORG_APACHE_TIKA_METADATA_OFFICE: String = "org.apache.tika.metadata.Office"
+//  val ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLCORE: String = "org.apache.tika.metadata.OfficeOpenXMLCore"
+//  val ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLEXTENDED: String = "org.apache.tika.metadata.OfficeOpenXMLExtended"
+//  val ORG_APACHE_TIKA_METADATA_PDF: String = "org.apache.tika.metadata.PDF"
+//  val ORG_APACHE_TIKA_METADATA_PHOTOSHOP: String = "org.apache.tika.metadata.Photoshop"
+//  val ORG_APACHE_TIKA_METADATA_QUATTROPRO: String = "org.apache.tika.metadata.QuattroPro"
+//  val ORG_APACHE_TIKA_METADATA_RTFMETADATA: String = "org.apache.tika.metadata.RTFMetadata"
+//  val ORG_APACHE_TIKA_METADATA_TIKACOREPROPERTIES: String = "org.apache.tika.metadata.TikaCoreProperties"
+//  val ORG_APACHE_TIKA_METADATA_TIKAMETADATAKEYS: String = "org.apache.tika.metadata.TikaMetadataKeys"
+//  val ORG_APACHE_TIKA_METADATA_TIKAMIMEKEYS: String = "org.apache.tika.metadata.TikaMimeKeys"
+//  val ORG_APACHE_TIKA_METADATA_WORDPERFECT: String = "org.apache.tika.metadata.WordPerfect"
+//  val ORG_APACHE_TIKA_METADATA_XMP: String = "org.apache.tika.metadata.XMP"
+//  val ORG_APACHE_TIKA_METADATA_XMPIDQ: String = "org.apache.tika.metadata.XMPIdq"
+//  val ORG_APACHE_TIKA_METADATA_XMPMM: String = "org.apache.tika.metadata.XMPMM"
+//  val ORG_APACHE_TIKA_METADATA_XMPRIGHTS: String = "org.apache.tika.metadata.XMPRights"
+//  val ORG_APACHE_TIKA_MIME_MIMETYPES: String = "org.apache.tika.mime.MimeTypes"
+//  val ORG_APACHE_TIKA_MIME_MIMETYPESFACTORY: String = "org.apache.tika.mime.MimeTypesFactory"
+//  val ORG_APACHE_TIKA_MIME_MIMETYPESREADERMETKEYS: String = "org.apache.tika.mime.MimeTypesReaderMetKeys"
+//  val ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCOMMONS: String = "org.apache.tika.parser.chm.core.ChmCommons"
+//  val ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCONSTANTS: String = "org.apache.tika.parser.chm.core.ChmConstants"
+//  val ORG_APACHE_TIKA_PARSER_CRYPTO_TSDPARSER: String = "org.apache.tika.parser.crypto.TSDParser"
+//  val ORG_APACHE_TIKA_PARSER_ENVI_ENVIHEADERPARSER: String = "org.apache.tika.parser.envi.EnviHeaderParser"
+//  val ORG_APACHE_TIKA_PARSER_EXECUTABLE_MACHINEMETADATA: String = "org.apache.tika.parser.executable.MachineMetadata"
+//  val ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSER: String = "org.apache.tika.parser.external.ExternalParser"
+//  val ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSERSCONFIGREADERMETKEYS: String = "org.apache.tika.parser.external.ExternalParsersConfigReaderMetKeys"
+//  val ORG_APACHE_TIKA_PARSER_GEOINFO_GEOGRAPHICINFORMATIONPARSER: String = "org.apache.tika.parser.geoinfo.GeographicInformationParser"
+//  val ORG_APACHE_TIKA_PARSER_GRIB_GRIBPARSER: String = "org.apache.tika.parser.grib.GribParser"
+//  val ORG_APACHE_TIKA_PARSER_IMAGE_ICNSPARSER: String = "org.apache.tika.parser.image.ICNSParser"
+//  val ORG_APACHE_TIKA_PARSER_IWORK_IWORKPACKAGEPARSER: String = "org.apache.tika.parser.iwork.IWorkPackageParser"
+//  val ORG_APACHE_TIKA_PARSER_IWORK_IWANA_IWORK13PACKAGEPARSER: String = "org.apache.tika.parser.iwork.iwana.IWork13PackageParser"
+//  val ORG_APACHE_TIKA_PARSER_MAT_MATPARSER: String = "org.apache.tika.parser.mat.MatParser"
+//  val ORG_APACHE_TIKA_PARSER_MBOX_MBOXPARSER: String = "org.apache.tika.parser.mbox.MboxParser"
+//  val ORG_APACHE_TIKA_PARSER_MICROSOFT_JACKCESSPARSER: String = "org.apache.tika.parser.microsoft.JackcessParser"
+//  val ORG_APACHE_TIKA_PARSER_MICROSOFT_OOXML_OOXMLWORDANDPOWERPOINTTEXTHANDLER: String = "org.apache.tika.parser.microsoft.ooxml.OOXMLWordAndPowerPointTextHandler"
+//  val ORG_APACHE_TIKA_PARSER_MP3_AUDIOFRAME: String = "org.apache.tika.parser.mp3.AudioFrame"
+//  val ORG_APACHE_TIKA_PARSER_NER_NAMEDENTITYPARSER: String = "org.apache.tika.parser.ner.NamedEntityParser"
+//  val ORG_APACHE_TIKA_PARSER_NER_NERECOGNISER: String = "org.apache.tika.parser.ner.NERecogniser"
+//  val ORG_APACHE_TIKA_PARSER_NER_CORENLP_CORENLPNERECOGNISER: String = "org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser"
+//  val ORG_APACHE_TIKA_PARSER_NER_MITIE_MITIENERECOGNISER: String = "org.apache.tika.parser.ner.mitie.MITIENERecogniser"
+//  val ORG_APACHE_TIKA_PARSER_NER_OPENNLP_OPENNLPNERECOGNISER: String = "org.apache.tika.parser.ner.opennlp.OpenNLPNERecogniser"
+//  val ORG_APACHE_TIKA_PARSER_NER_REGEX_REGEXNERECOGNISER: String = "org.apache.tika.parser.ner.regex.RegexNERecogniser"
+//  val ORG_APACHE_TIKA_PARSER_ODF_OPENDOCUMENTCONTENTPARSER: String = "org.apache.tika.parser.odf.OpenDocumentContentParser"
+//  val ORG_APACHE_TIKA_PARSER_PDF_PDFPARSER: String = "org.apache.tika.parser.pdf.PDFParser"
+//  val ORG_APACHE_TIKA_PARSER_PRT_PRTPARSER: String = "org.apache.tika.parser.prt.PRTParser"
+//  val ORG_APACHE_TIKA_PARSER_RECOGNITION_OBJECTRECOGNITIONPARSER: String = "org.apache.tika.parser.recognition.ObjectRecognitionParser"
+//  val ORG_APACHE_TIKA_PARSER_RTF_LISTDESCRIPTOR: String = "org.apache.tika.parser.rtf.ListDescriptor"
+//  val ORG_APACHE_TIKA_PARSER_SENTIMENT_SENTIMENTANALYSISPARSER: String = "org.apache.tika.parser.sentiment.SentimentAnalysisParser"
+//  val ORG_APACHE_TIKA_SAX_STANDARDSEXTRACTINGCONTENTHANDLER: String = "org.apache.tika.sax.StandardsExtractingContentHandler"
+//  val ORG_APACHE_TIKA_SAX_XHTMLCONTENTHANDLER: String = "org.apache.tika.sax.XHTMLContentHandler"
+//  val ORG_APACHE_TIKA_SAX_XMPCONTENTHANDLER: String = "org.apache.tika.sax.XMPContentHandler"
   val ORG_JODA_TIME_DATETIMECONSTANTS: String = "org.joda.time.DateTimeConstants"
   val ORG_JODA_TIME_MONTHDAY: String = "org.joda.time.MonthDay"
   val ORG_JODA_TIME_MUTABLEDATETIME: String = "org.joda.time.MutableDateTime"
@@ -2169,70 +2169,70 @@ object ConstantClasses {
       ORG_APACHE_SLING_SPI_RESOURCE_PROVIDER_RESOURCEPROVIDER,
       ORG_APACHE_SLING_TENANT_TENANT,
       ORG_APACHE_SLING_XSS_JSONUTIL,
-      ORG_APACHE_TIKA_CONFIG_PARAMFIELD,
-      ORG_APACHE_TIKA_EMBEDDER_EXTERNALEMBEDDER,
-      ORG_APACHE_TIKA_LANGUAGE_LANGUAGEPROFILE,
-      ORG_APACHE_TIKA_METADATA_ACCESSPERMISSIONS,
-      ORG_APACHE_TIKA_METADATA_CLIMATEFORCAST,
-      ORG_APACHE_TIKA_METADATA_CREATIVECOMMONS,
-      ORG_APACHE_TIKA_METADATA_DATABASE,
-      ORG_APACHE_TIKA_METADATA_DUBLINCORE,
-      ORG_APACHE_TIKA_METADATA_HTML,
-      ORG_APACHE_TIKA_METADATA_HTTPHEADERS,
-      ORG_APACHE_TIKA_METADATA_IPTC,
-      ORG_APACHE_TIKA_METADATA_MESSAGE,
-      ORG_APACHE_TIKA_METADATA_METADATA,
-      ORG_APACHE_TIKA_METADATA_MSOFFICE,
-      ORG_APACHE_TIKA_METADATA_OFFICE,
-      ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLCORE,
-      ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLEXTENDED,
-      ORG_APACHE_TIKA_METADATA_PDF,
-      ORG_APACHE_TIKA_METADATA_PHOTOSHOP,
-      ORG_APACHE_TIKA_METADATA_QUATTROPRO,
-      ORG_APACHE_TIKA_METADATA_RTFMETADATA,
-      ORG_APACHE_TIKA_METADATA_TIKACOREPROPERTIES,
-      ORG_APACHE_TIKA_METADATA_TIKAMETADATAKEYS,
-      ORG_APACHE_TIKA_METADATA_TIKAMIMEKEYS,
-      ORG_APACHE_TIKA_METADATA_WORDPERFECT,
-      ORG_APACHE_TIKA_METADATA_XMP,
-      ORG_APACHE_TIKA_METADATA_XMPIDQ,
-      ORG_APACHE_TIKA_METADATA_XMPMM,
-      ORG_APACHE_TIKA_METADATA_XMPRIGHTS,
-      ORG_APACHE_TIKA_MIME_MIMETYPES,
-      ORG_APACHE_TIKA_MIME_MIMETYPESFACTORY,
-      ORG_APACHE_TIKA_MIME_MIMETYPESREADERMETKEYS,
-      ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCOMMONS,
-      ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCONSTANTS,
-      ORG_APACHE_TIKA_PARSER_CRYPTO_TSDPARSER,
-      ORG_APACHE_TIKA_PARSER_ENVI_ENVIHEADERPARSER,
-      ORG_APACHE_TIKA_PARSER_EXECUTABLE_MACHINEMETADATA,
-      ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSER,
-      ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSERSCONFIGREADERMETKEYS,
-      ORG_APACHE_TIKA_PARSER_GEOINFO_GEOGRAPHICINFORMATIONPARSER,
-      ORG_APACHE_TIKA_PARSER_GRIB_GRIBPARSER,
-      ORG_APACHE_TIKA_PARSER_IMAGE_ICNSPARSER,
-      ORG_APACHE_TIKA_PARSER_IWORK_IWORKPACKAGEPARSER,
-      ORG_APACHE_TIKA_PARSER_IWORK_IWANA_IWORK13PACKAGEPARSER,
-      ORG_APACHE_TIKA_PARSER_MAT_MATPARSER,
-      ORG_APACHE_TIKA_PARSER_MBOX_MBOXPARSER,
-      ORG_APACHE_TIKA_PARSER_MICROSOFT_JACKCESSPARSER,
-      ORG_APACHE_TIKA_PARSER_MICROSOFT_OOXML_OOXMLWORDANDPOWERPOINTTEXTHANDLER,
-      ORG_APACHE_TIKA_PARSER_MP3_AUDIOFRAME,
-      ORG_APACHE_TIKA_PARSER_NER_NAMEDENTITYPARSER,
-      ORG_APACHE_TIKA_PARSER_NER_NERECOGNISER,
-      ORG_APACHE_TIKA_PARSER_NER_CORENLP_CORENLPNERECOGNISER,
-      ORG_APACHE_TIKA_PARSER_NER_MITIE_MITIENERECOGNISER,
-      ORG_APACHE_TIKA_PARSER_NER_OPENNLP_OPENNLPNERECOGNISER,
-      ORG_APACHE_TIKA_PARSER_NER_REGEX_REGEXNERECOGNISER,
-      ORG_APACHE_TIKA_PARSER_ODF_OPENDOCUMENTCONTENTPARSER,
-      ORG_APACHE_TIKA_PARSER_PDF_PDFPARSER,
-      ORG_APACHE_TIKA_PARSER_PRT_PRTPARSER,
-      ORG_APACHE_TIKA_PARSER_RECOGNITION_OBJECTRECOGNITIONPARSER,
-      ORG_APACHE_TIKA_PARSER_RTF_LISTDESCRIPTOR,
-      ORG_APACHE_TIKA_PARSER_SENTIMENT_SENTIMENTANALYSISPARSER,
-      ORG_APACHE_TIKA_SAX_STANDARDSEXTRACTINGCONTENTHANDLER,
-      ORG_APACHE_TIKA_SAX_XHTMLCONTENTHANDLER,
-      ORG_APACHE_TIKA_SAX_XMPCONTENTHANDLER,
+//      ORG_APACHE_TIKA_CONFIG_PARAMFIELD,
+//      ORG_APACHE_TIKA_EMBEDDER_EXTERNALEMBEDDER,
+//      ORG_APACHE_TIKA_LANGUAGE_LANGUAGEPROFILE,
+//      ORG_APACHE_TIKA_METADATA_ACCESSPERMISSIONS,
+//      ORG_APACHE_TIKA_METADATA_CLIMATEFORCAST,
+//      ORG_APACHE_TIKA_METADATA_CREATIVECOMMONS,
+//      ORG_APACHE_TIKA_METADATA_DATABASE,
+//      ORG_APACHE_TIKA_METADATA_DUBLINCORE,
+//      ORG_APACHE_TIKA_METADATA_HTML,
+//      ORG_APACHE_TIKA_METADATA_HTTPHEADERS,
+//      ORG_APACHE_TIKA_METADATA_IPTC,
+//      ORG_APACHE_TIKA_METADATA_MESSAGE,
+//      ORG_APACHE_TIKA_METADATA_METADATA,
+//      ORG_APACHE_TIKA_METADATA_MSOFFICE,
+//      ORG_APACHE_TIKA_METADATA_OFFICE,
+//      ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLCORE,
+//      ORG_APACHE_TIKA_METADATA_OFFICEOPENXMLEXTENDED,
+//      ORG_APACHE_TIKA_METADATA_PDF,
+//      ORG_APACHE_TIKA_METADATA_PHOTOSHOP,
+//      ORG_APACHE_TIKA_METADATA_QUATTROPRO,
+//      ORG_APACHE_TIKA_METADATA_RTFMETADATA,
+//      ORG_APACHE_TIKA_METADATA_TIKACOREPROPERTIES,
+//      ORG_APACHE_TIKA_METADATA_TIKAMETADATAKEYS,
+//      ORG_APACHE_TIKA_METADATA_TIKAMIMEKEYS,
+//      ORG_APACHE_TIKA_METADATA_WORDPERFECT,
+//      ORG_APACHE_TIKA_METADATA_XMP,
+//      ORG_APACHE_TIKA_METADATA_XMPIDQ,
+//      ORG_APACHE_TIKA_METADATA_XMPMM,
+//      ORG_APACHE_TIKA_METADATA_XMPRIGHTS,
+//      ORG_APACHE_TIKA_MIME_MIMETYPES,
+//      ORG_APACHE_TIKA_MIME_MIMETYPESFACTORY,
+//      ORG_APACHE_TIKA_MIME_MIMETYPESREADERMETKEYS,
+//      ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCOMMONS,
+//      ORG_APACHE_TIKA_PARSER_CHM_CORE_CHMCONSTANTS,
+//      ORG_APACHE_TIKA_PARSER_CRYPTO_TSDPARSER,
+//      ORG_APACHE_TIKA_PARSER_ENVI_ENVIHEADERPARSER,
+//      ORG_APACHE_TIKA_PARSER_EXECUTABLE_MACHINEMETADATA,
+//      ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSER,
+//      ORG_APACHE_TIKA_PARSER_EXTERNAL_EXTERNALPARSERSCONFIGREADERMETKEYS,
+//      ORG_APACHE_TIKA_PARSER_GEOINFO_GEOGRAPHICINFORMATIONPARSER,
+//      ORG_APACHE_TIKA_PARSER_GRIB_GRIBPARSER,
+//      ORG_APACHE_TIKA_PARSER_IMAGE_ICNSPARSER,
+//      ORG_APACHE_TIKA_PARSER_IWORK_IWORKPACKAGEPARSER,
+//      ORG_APACHE_TIKA_PARSER_IWORK_IWANA_IWORK13PACKAGEPARSER,
+//      ORG_APACHE_TIKA_PARSER_MAT_MATPARSER,
+//      ORG_APACHE_TIKA_PARSER_MBOX_MBOXPARSER,
+//      ORG_APACHE_TIKA_PARSER_MICROSOFT_JACKCESSPARSER,
+//      ORG_APACHE_TIKA_PARSER_MICROSOFT_OOXML_OOXMLWORDANDPOWERPOINTTEXTHANDLER,
+//      ORG_APACHE_TIKA_PARSER_MP3_AUDIOFRAME,
+//      ORG_APACHE_TIKA_PARSER_NER_NAMEDENTITYPARSER,
+//      ORG_APACHE_TIKA_PARSER_NER_NERECOGNISER,
+//      ORG_APACHE_TIKA_PARSER_NER_CORENLP_CORENLPNERECOGNISER,
+//      ORG_APACHE_TIKA_PARSER_NER_MITIE_MITIENERECOGNISER,
+//      ORG_APACHE_TIKA_PARSER_NER_OPENNLP_OPENNLPNERECOGNISER,
+//      ORG_APACHE_TIKA_PARSER_NER_REGEX_REGEXNERECOGNISER,
+//      ORG_APACHE_TIKA_PARSER_ODF_OPENDOCUMENTCONTENTPARSER,
+//      ORG_APACHE_TIKA_PARSER_PDF_PDFPARSER,
+//      ORG_APACHE_TIKA_PARSER_PRT_PRTPARSER,
+//      ORG_APACHE_TIKA_PARSER_RECOGNITION_OBJECTRECOGNITIONPARSER,
+//      ORG_APACHE_TIKA_PARSER_RTF_LISTDESCRIPTOR,
+//      ORG_APACHE_TIKA_PARSER_SENTIMENT_SENTIMENTANALYSISPARSER,
+//      ORG_APACHE_TIKA_SAX_STANDARDSEXTRACTINGCONTENTHANDLER,
+//      ORG_APACHE_TIKA_SAX_XHTMLCONTENTHANDLER,
+//      ORG_APACHE_TIKA_SAX_XMPCONTENTHANDLER,
       ORG_JODA_TIME_DATETIMECONSTANTS,
       ORG_JODA_TIME_MONTHDAY,
       ORG_JODA_TIME_MUTABLEDATETIME,
